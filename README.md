@@ -6,6 +6,4 @@
 ![Code style](https://img.shields.io/badge/code_style-prettier-ff69b4.svg)
 [![Bundlephobia](https://badgen.net/bundlephobia/min/@nexys/markdown-to-latex)](https://bundlephobia.com/result?p=@nexys/markdown-to-latex)
 
-## Config
-
-- `NPM_AUTH_TOKEN` is required for the CI and auto-publish
+very simple markdown to latex conversion
