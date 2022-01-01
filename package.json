@@ -1,5 +1,5 @@
 {
-  "name": "@nexys/template",
+  "name": "@nexys/markdown-to-latex",
   "version": "0.0.1",
   "private": false,
   "license": "MIT",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/nexys-system/typescript-package"
+    "url": "https://github.com/nexys-system/markdown-to-latex"
   },
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -18,12 +18,8 @@
     "dist/*",
     "README.md"
   ],
-  "keywords": [
-    "typescript",
-    "SDK"
-  ],
-  "dependencies": {
-  },
+  "keywords": [],
+  "dependencies": {},
   "devDependencies": {
     "@types/jest": "^25.2.3",
     "@types/nock": "^11.1.0",

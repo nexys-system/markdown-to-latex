@@ -9,7 +9,10 @@ test("line to latex", () => {
     "my normal \\textit{line}, this is \\textbf{bold} and here is a \\href{https://example.com}{link}"
   );
 
-  expect(I.lineToLatex("* list item")).toEqual("\\item list item");
+  expect(I.lineToLatex("* list item")).toEqual({
+    content: "  \\item list item",
+    list: true,
+  });
 });
 
 test("to latex", () => {
@@ -18,5 +21,10 @@ test("to latex", () => {
 * item 1
 * item 2
 and some new text`)
-  ).toEqual("");
+  ).toEqual(`intro
+\\begin{itemize}
+  \\item item 1
+  \\item item 2
+\\end{itemize}
+and some new text`);
 });
